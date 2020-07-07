@@ -14,7 +14,22 @@
 		A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34760F524B32B0E001FFD7A /* Assets.xcassets */; };
 		A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34760F724B32B0E001FFD7A /* LaunchScreen.storyboard */; };
 		A34760FC24B32B0E001FFD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760FB24B32B0E001FFD7A /* main.m */; };
+		A3D0EEF224B4063000F6045C /* Rake1.10.1.zip in Resources */ = {isa = PBXBuildFile; fileRef = A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */; };
+		A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D0EEF124B4063000F6045C /* Rake.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3D0EEEE24B4052100F6045C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A34760E624B32B0E001FFD7A /* rake-ios-tutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +44,8 @@
 		A34760F824B32B0E001FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34760FA24B32B0E001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34760FB24B32B0E001FFD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Rake1.10.1.zip; sourceTree = "<group>"; };
+		A3D0EEF124B4063000F6045C /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +63,7 @@
 		A34760DD24B32B0E001FFD7A = {
 			isa = PBXGroup;
 			children = (
+				A3D0EEEF24B4063000F6045C /* sdk */,
 				A34760E824B32B0E001FFD7A /* rake-ios-tutorial-ObjC */,
 				A34760E724B32B0E001FFD7A /* Products */,
 			);
@@ -76,6 +95,16 @@
 			path = "rake-ios-tutorial-ObjC";
 			sourceTree = "<group>";
 		};
+		A3D0EEEF24B4063000F6045C /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */,
+				A3D0EEF124B4063000F6045C /* Rake.framework */,
+			);
+			name = sdk;
+			path = "rake-ios-tutorial-ObjC/sdk";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,6 +115,7 @@
 				A34760E224B32B0E001FFD7A /* Sources */,
 				A34760E324B32B0E001FFD7A /* Frameworks */,
 				A34760E424B32B0E001FFD7A /* Resources */,
+				A3D0EEEE24B4052100F6045C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */,
+				A3D0EEF224B4063000F6045C /* Rake1.10.1.zip in Resources */,
 				A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */,
 				A34760F424B32B0E001FFD7A /* Main.storyboard in Resources */,
 			);
@@ -211,6 +242,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -225,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -269,6 +301,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -277,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,8 +322,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AJJQQRLXL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/rake-ios-tutorial-ObjC/sdk",
+				);
 				INFOPLIST_FILE = "rake-ios-tutorial-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.rake-ios-tutorial-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,8 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AJJQQRLXL5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/rake-ios-tutorial-ObjC/sdk",
+				);
 				INFOPLIST_FILE = "rake-ios-tutorial-ObjC/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,6 +359,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.rake-ios-tutorial-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
