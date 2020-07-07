@@ -13,8 +13,7 @@
 - Xcode11 이상
 
 ## Install
-### Static Framework
- 1. Rake Static Framework [1.10.1](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake1.10.1.zip)을 다운받으세요.
+ 1. Rake.Framework [1.10.1](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake1.10.1.zip)을 다운받으세요.
  2. Rake.framework 을 선택하여 Xcode 프로젝트의 File Navigation에 넣습니다. 이때, Copy items if needed 이 선택된지 확인하고, Finish 버튼을 누릅니다.
 
 ----------
