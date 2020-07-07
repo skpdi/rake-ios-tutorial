@@ -15,6 +15,7 @@
 		A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34760F724B32B0E001FFD7A /* LaunchScreen.storyboard */; };
 		A34760FC24B32B0E001FFD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760FB24B32B0E001FFD7A /* main.m */; };
 		A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D0EEF124B4063000F6045C /* Rake.framework */; };
+		A3D0EEFB24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		A34760FA24B32B0E001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34760FB24B32B0E001FFD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3D0EEF124B4063000F6045C /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
+		A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiRakeClientTestIOsSentinelShuttle.h; path = shuttle/DiRakeClientTestIOsSentinelShuttle.h; sourceTree = "<group>"; };
+		A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiRakeClientTestIOsSentinelShuttle.m; path = shuttle/DiRakeClientTestIOsSentinelShuttle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		A3D0EEEF24B4063000F6045C /* sdk */ = {
 			isa = PBXGroup;
 			children = (
+				A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */,
+				A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */,
 				A3D0EEF124B4063000F6045C /* Rake.framework */,
 			);
 			name = sdk;
@@ -175,6 +180,7 @@
 			files = (
 				A34760F124B32B0E001FFD7A /* ViewController.m in Sources */,
 				A34760EB24B32B0E001FFD7A /* AppDelegate.m in Sources */,
+				A3D0EEFB24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m in Sources */,
 				A34760FC24B32B0E001FFD7A /* main.m in Sources */,
 				A34760EE24B32B0E001FFD7A /* SceneDelegate.m in Sources */,
 			);

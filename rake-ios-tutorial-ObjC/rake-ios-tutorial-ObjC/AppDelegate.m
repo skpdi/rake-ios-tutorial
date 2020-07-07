@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  rake-ios-tutorial-ObjC
 //
-//  Created by 1000731 on 2020/07/06.
-//  Copyright © 2020 1000731. All rights reserved.
+//  Created by ssonghey on 2020/07/06.
+//  Copyright © 2020 SK Planet. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <Rake/Rake.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Init Rake sharedInstance
+    [Rake sharedInstanceWithToken: @"your-rake-token" andUseDevServer: YES];
+    
     return YES;
 }
 
