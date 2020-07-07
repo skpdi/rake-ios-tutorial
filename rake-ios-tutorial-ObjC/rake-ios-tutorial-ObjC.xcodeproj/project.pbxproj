@@ -14,7 +14,6 @@
 		A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34760F524B32B0E001FFD7A /* Assets.xcassets */; };
 		A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34760F724B32B0E001FFD7A /* LaunchScreen.storyboard */; };
 		A34760FC24B32B0E001FFD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760FB24B32B0E001FFD7A /* main.m */; };
-		A3D0EEF224B4063000F6045C /* Rake1.10.1.zip in Resources */ = {isa = PBXBuildFile; fileRef = A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */; };
 		A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D0EEF124B4063000F6045C /* Rake.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		A34760F824B32B0E001FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34760FA24B32B0E001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34760FB24B32B0E001FFD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Rake1.10.1.zip; sourceTree = "<group>"; };
 		A3D0EEF124B4063000F6045C /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 		A3D0EEEF24B4063000F6045C /* sdk */ = {
 			isa = PBXGroup;
 			children = (
-				A3D0EEF024B4063000F6045C /* Rake1.10.1.zip */,
 				A3D0EEF124B4063000F6045C /* Rake.framework */,
 			);
 			name = sdk;
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */,
-				A3D0EEF224B4063000F6045C /* Rake1.10.1.zip in Resources */,
 				A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */,
 				A34760F424B32B0E001FFD7A /* Main.storyboard in Resources */,
 			);

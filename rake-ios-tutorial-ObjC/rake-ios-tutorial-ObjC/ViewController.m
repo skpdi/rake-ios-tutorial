@@ -19,5 +19,12 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)onButtonTrackClick:(id)sender {
+    NSLog(@"Track Clicked");
+}
+
+- (IBAction)onButtonFlushClick:(id)sender {
+    NSLog(@"Flush Clicked");
+}
 
 @end

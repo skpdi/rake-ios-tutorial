@@ -13,7 +13,6 @@
 		A347615624B32C4A001FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A347615524B32C4A001FFD7A /* Assets.xcassets */; };
 		A347615924B32C4A001FFD7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A347615824B32C4A001FFD7A /* Preview Assets.xcassets */; };
 		A347615C24B32C4A001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A347615A24B32C4A001FFD7A /* LaunchScreen.storyboard */; };
-		A3D0EEF724B4068F00F6045C /* Rake1.10.1.zip in Resources */ = {isa = PBXBuildFile; fileRef = A3D0EEF524B4068F00F6045C /* Rake1.10.1.zip */; };
 		A3D0EEF824B4068F00F6045C /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D0EEF624B4068F00F6045C /* Rake.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		A347615824B32C4A001FFD7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A347615B24B32C4A001FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A347615D24B32C4A001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D0EEF524B4068F00F6045C /* Rake1.10.1.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Rake1.10.1.zip; sourceTree = "<group>"; };
 		A3D0EEF624B4068F00F6045C /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +95,6 @@
 		A3D0EEF424B4068F00F6045C /* sdk */ = {
 			isa = PBXGroup;
 			children = (
-				A3D0EEF524B4068F00F6045C /* Rake1.10.1.zip */,
 				A3D0EEF624B4068F00F6045C /* Rake.framework */,
 			);
 			name = sdk;
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A347615C24B32C4A001FFD7A /* LaunchScreen.storyboard in Resources */,
-				A3D0EEF724B4068F00F6045C /* Rake1.10.1.zip in Resources */,
 				A347615924B32C4A001FFD7A /* Preview Assets.xcassets in Resources */,
 				A347615624B32C4A001FFD7A /* Assets.xcassets in Resources */,
 			);
