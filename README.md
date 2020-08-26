@@ -5,7 +5,7 @@
 - [Rake iPhone Manual](https://github.com/skpdi/rake-document/wiki/2.-Rake-iPhone-(%ED%95%9C%EA%B5%AD%EC%96%B4))
 
 ## SDK Requirements
-- iOS9 이상
+- iOS10 이상
 - Xcode11 이상
 - Objective-C와 Swift 환경 모두 지원합니다.
 
