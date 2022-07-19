@@ -236,6 +236,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -298,6 +299,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -325,6 +327,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"rake-ios-tutorial-Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = AJJQQRLXL5;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/rake-ios-tutorial-Swift/sdk";
 				INFOPLIST_FILE = "rake-ios-tutorial-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,6 +351,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"rake-ios-tutorial-Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = AJJQQRLXL5;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/rake-ios-tutorial-Swift/sdk";
 				INFOPLIST_FILE = "rake-ios-tutorial-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -5,15 +5,15 @@
 - [Rake iPhone Manual](https://github.com/skpdi/rake-document/wiki/2.-Rake-iPhone-(%ED%95%9C%EA%B5%AD%EC%96%B4))
 
 ## SDK Requirements
-- iOS10 이상
-- Xcode11 이상
+- iOS11 이상
+- Xcode13 이상
 - Objective-C와 Swift 환경 모두 지원합니다.
 
 ## Tutorial Requirements
 - Xcode11 이상
 
 ## Install
- 1. Rake.Framework [1.10.2](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake1.10.2.zip)을 다운받으세요.
+ 1. Rake.Framework [1.10.3](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake1.10.3.zip)을 다운받으세요.
  2. Rake.framework 을 선택하여 Xcode 프로젝트의 File Navigation에 넣습니다. 이때, Copy items if needed 이 선택된지 확인하고, Finish 버튼을 누릅니다.
 
 ----------
