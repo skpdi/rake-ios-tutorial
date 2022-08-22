@@ -22,7 +22,7 @@ public class DiRakeClientTestIOsSentinelShuttle {
     }
 
     private static let _$ssTemplateVersion = "0.1.5"
-    private static let _$ssVersion = "19.07.24:3.1.0:7"
+    private static let _$ssVersion = "22.08.22:4.0.5:11"
     private static let _$ssSchemaId = "DiRakeClientTestIOs"
     private static let _$ssDelim = "\t"
     private static let _$logVersionKey = "log_version"
@@ -236,6 +236,14 @@ public class DiRakeClientTestIOsSentinelShuttle {
         return self
     }
 
+    public func setBodyOftest__test() -> DiRakeClientTestIOsSentinelShuttle {
+        self.clearBody()
+        self.fieldsDictionary.updateValue("test", forKey: "page_id")
+        self.fieldsDictionary.updateValue("test", forKey: "action_id")
+
+        return self
+    }
+
 
 
 
@@ -253,8 +261,8 @@ public class DiRakeClientTestIOsSentinelShuttle {
     public func toHBString(_ delim:String) -> String {
         do {
             return try "\(self.headerToString(delim))\(self.bodyToString())"
-        } catch DiRakeClientTestIOsSentinelShuttleError.EmptyExtraPartitionFieldError(let reason) {
-            print("\(self) \(reason)");
+        } catch let error {
+            print("\(self) \(error)");
             return ""
         }
     }
