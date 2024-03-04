@@ -6,7 +6,7 @@
 
 ## SDK Requirements
 - iOS14 이상
-- Xcode14 이상
+- Xcode15 이상
 - Objective-C와 Swift 환경 모두 지원합니다.
 
 ## Tutorial Requirements
