@@ -10,7 +10,7 @@
 - Objective-C와 Swift 환경 모두 지원합니다.
 
 ## Tutorial Requirements
-- Xcode14 이상
+- Xcode15 이상
 
 ## Install
  1. Rake.Framework [1.10.6](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake1.10.6.zip)을 다운받으세요.
