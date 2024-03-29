@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0051310628B34E9200E41C6F /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0051310528B34E9200E41C6F /* Rake.framework */; };
 		0051310828B34F4600E41C6F /* DiRakeClientTestIOsSentinelShuttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051310728B34F4600E41C6F /* DiRakeClientTestIOsSentinelShuttle.swift */; };
+		00785E1D2BAD708C005C3447 /* Rake.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E1C2BAD708C005C3447 /* Rake.xcframework */; };
+		00785E1E2BAD708C005C3447 /* Rake.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E1C2BAD708C005C3447 /* Rake.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A347615024B32C49001FFD7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347614F24B32C49001FFD7A /* AppDelegate.swift */; };
 		A347615224B32C49001FFD7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347615124B32C49001FFD7A /* SceneDelegate.swift */; };
 		A347615424B32C49001FFD7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A347615324B32C49001FFD7A /* ContentView.swift */; };
@@ -18,12 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A347616724B3331A001FFD7A /* Embed Frameworks */ = {
+		00785E1F2BAD708C005C3447 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				00785E1E2BAD708C005C3447 /* Rake.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,8 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0051310528B34E9200E41C6F /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
 		0051310728B34F4600E41C6F /* DiRakeClientTestIOsSentinelShuttle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiRakeClientTestIOsSentinelShuttle.swift; path = shuttle/DiRakeClientTestIOsSentinelShuttle.swift; sourceTree = "<group>"; };
+		00785E122BAD6FBD005C3447 /* Rake.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Rake.xcframework; path = "../rake-ios-tutorial-ObjC/rake-ios-tutorial-ObjC/sdk/Rake.xcframework"; sourceTree = "<group>"; };
+		00785E1C2BAD708C005C3447 /* Rake.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Rake.xcframework; path = "rake-ios-tutorial-Swift/sdk/Rake.xcframework"; sourceTree = "<group>"; };
 		A347614C24B32C49001FFD7A /* rake-ios-tutorial-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A347614F24B32C49001FFD7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A347615124B32C49001FFD7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0051310628B34E9200E41C6F /* Rake.framework in Frameworks */,
+				00785E1D2BAD708C005C3447 /* Rake.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,8 @@
 		0051310228B34E4300E41C6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00785E1C2BAD708C005C3447 /* Rake.xcframework */,
+				00785E122BAD6FBD005C3447 /* Rake.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				0051310728B34F4600E41C6F /* DiRakeClientTestIOsSentinelShuttle.swift */,
-				0051310528B34E9200E41C6F /* Rake.framework */,
 			);
 			name = sdk;
 			path = "rake-ios-tutorial-Swift/sdk";
@@ -124,7 +128,7 @@
 				A347614824B32C49001FFD7A /* Sources */,
 				A347614924B32C49001FFD7A /* Frameworks */,
 				A347614A24B32C49001FFD7A /* Resources */,
-				A347616724B3331A001FFD7A /* Embed Frameworks */,
+				00785E1F2BAD708C005C3447 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -143,7 +147,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = 1000731;
 				TargetAttributes = {
 					A347614B24B32C49001FFD7A = {
@@ -245,6 +249,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -308,6 +313,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
