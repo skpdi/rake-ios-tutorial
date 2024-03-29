@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00785E1A2BAD7070005C3447 /* Rake.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; };
+		00785E1B2BAD7070005C3447 /* Rake.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A34760EB24B32B0E001FFD7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760EA24B32B0E001FFD7A /* AppDelegate.m */; };
 		A34760EE24B32B0E001FFD7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760ED24B32B0E001FFD7A /* SceneDelegate.m */; };
 		A34760F124B32B0E001FFD7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760F024B32B0E001FFD7A /* ViewController.m */; };
@@ -14,7 +16,6 @@
 		A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34760F524B32B0E001FFD7A /* Assets.xcassets */; };
 		A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34760F724B32B0E001FFD7A /* LaunchScreen.storyboard */; };
 		A34760FC24B32B0E001FFD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760FB24B32B0E001FFD7A /* main.m */; };
-		A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3D0EEF124B4063000F6045C /* Rake.framework */; };
 		A3D0EEFB24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				00785E1B2BAD7070005C3447 /* Rake.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00785E192BAD7070005C3447 /* Rake.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Rake.xcframework; path = "rake-ios-tutorial-ObjC/sdk/Rake.xcframework"; sourceTree = "<group>"; };
 		A34760E624B32B0E001FFD7A /* rake-ios-tutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34760E924B32B0E001FFD7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A34760EA24B32B0E001FFD7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +47,6 @@
 		A34760F824B32B0E001FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34760FA24B32B0E001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34760FB24B32B0E001FFD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3D0EEF124B4063000F6045C /* Rake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rake.framework; sourceTree = "<group>"; };
 		A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiRakeClientTestIOsSentinelShuttle.h; path = shuttle/DiRakeClientTestIOsSentinelShuttle.h; sourceTree = "<group>"; };
 		A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiRakeClientTestIOsSentinelShuttle.m; path = shuttle/DiRakeClientTestIOsSentinelShuttle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,19 +56,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D0EEF324B4063000F6045C /* Rake.framework in Frameworks */,
+				00785E1A2BAD7070005C3447 /* Rake.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00785E182BAD7070005C3447 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00785E192BAD7070005C3447 /* Rake.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A34760DD24B32B0E001FFD7A = {
 			isa = PBXGroup;
 			children = (
 				A3D0EEEF24B4063000F6045C /* sdk */,
 				A34760E824B32B0E001FFD7A /* rake-ios-tutorial-ObjC */,
 				A34760E724B32B0E001FFD7A /* Products */,
+				00785E182BAD7070005C3447 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +112,6 @@
 			children = (
 				A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */,
 				A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */,
-				A3D0EEF124B4063000F6045C /* Rake.framework */,
 			);
 			name = sdk;
 			path = "rake-ios-tutorial-ObjC/sdk";
@@ -135,7 +145,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = 1000731;
 				TargetAttributes = {
 					A34760E524B32B0E001FFD7A = {
@@ -246,6 +256,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -307,6 +318,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;

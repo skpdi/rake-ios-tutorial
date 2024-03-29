@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   PrivacyInfo.xcprivacy
+   Rake
+
+   Created by 송혜영(Hyeyoung Song)/Data Infrastructure팀/SKP on 2024/03/18.
+   Copyright (c) 2024 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>NSPrivacyCollectedDataTypes</key>
+        <array>
+            <dict>
+                <key>NSPrivacyCollectedDataType</key>
+                <string>NSPrivacyCollectedDataTypeDeviceID</string>
+                <key>NSPrivacyCollectedDataTypeLinked</key>
+                <true/>
+                <key>NSPrivacyCollectedDataTypeTracking</key>
+                <true/>
+                <key>NSPrivacyCollectedDataTypePurposes</key>
+                <array>
+                    <string>NSPrivacyCollectedDataTypePurposeProductPersonalization</string>
+                </array>
+            </dict>
+        </array>
+        
+        <key>NSPrivacyTracking</key>
+        <false/>
+        
+        <key>NSPrivacyTrackingDomains</key>
+        <array/>
+        
+        <key>NSPrivacyAccessedAPITypes</key>
+        <array/>
+    </dict>
+</plist>
