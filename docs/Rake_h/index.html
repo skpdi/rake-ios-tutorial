@@ -453,6 +453,11 @@ use the <code>identify:</code> method.
 <a name="HeaderDoc_methods"></a>
 <h2 class="h2tight">Methods</h2>
 <dl>
+<dt><tt><a href="index.html#//apple_ref/c/func/addRakeFlushNotificationName:" target="_top">+addRakeFlushNotificationName:</a></tt></dt>
+<dd>
+<p>Add Rake Flush Notification Name (Rake iOS only API)
+</p>
+</dd>
 <dt><tt><a href="index.html#//apple_ref/c/func/archive" target="_top">+archive</a></tt></dt>
 <dd>
 <p>Writes current project info, including distinct ID, super properties and pending event
@@ -476,6 +481,11 @@ record queues to disk.
 <dt><tt><a href="index.html#//apple_ref/c/func/flush" target="_top">+flush</a></tt></dt>
 <dd>
 <p>Uploads queued data to the Rake server.
+</p>
+</dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/getCurrentTrackCount:" target="_top">+getCurrentTrackCount:</a></tt></dt>
+<dd>
+<p>Get current track log count. (Rake iOS only API)
 </p>
 </dd>
 <dt><tt><a href="index.html#//apple_ref/c/func/initWithToken:andFlushInterval:" target="_top">+initWithToken:andFlushInterval:</a></tt></dt>
@@ -513,6 +523,11 @@ set.
 <dd>
 <p>Registers super properties without overwriting ones that have already been set
 unless the existing value is equal to defaultValue.
+</p>
+</dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/removeRakeFlushNotificationName" target="_top">+removeRakeFlushNotificationName</a></tt></dt>
+<dd>
+<p>Remove Rake Flush Notification Name (Rake iOS only API)
 </p>
 </dd>
 <dt><tt><a href="index.html#//apple_ref/c/func/reset" target="_top">+reset</a></tt></dt>
@@ -554,6 +569,33 @@ unless the existing value is equal to defaultValue.
 </p>
 </dd>
 </dl>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=func;  uid=//apple_ref/c/func/addRakeFlushNotificationName:;   name=addRakeFlushNotificationName: -->
+<a name="//apple_ref/c/func/addRakeFlushNotificationName:"></a>
+<h3><a name="addRakeFlushNotificationName:">addRakeFlushNotificationName:</a></h3>
+<hr class="afterName">
+<p><!-- headerDoc=abstract;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=start --><!-- begin abstract --></p>
+<p>Add Rake Flush Notification Name (Rake iOS only API)
+</p>
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=end -->
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=start -->- (<!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<!-- a logicalPath="//apple_ref/c/instm/addRakeFlushNotificationName //apple_ref/c/clm/addRakeFlushNotificationName //apple_ref/c/intfcm/addRakeFlushNotificationName //apple_ref/c/intfm/addRakeFlushNotificationName //apple_ref/c/func/addRakeFlushNotificationName //apple_ref/c/ftmplt/addRakeFlushNotificationName //apple_ref/c/defn/addRakeFlushNotificationName //apple_ref/c/macro/addRakeFlushNotificationName //apple_ref/doc/anysymbol/addRakeFlushNotificationName" machineGenerated="true" --><span class="function">addRakeFlushNotificationName</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/c/cl/NSString //apple_ref/c/tdef/NSString //apple_ref/c/tag/NSString //apple_ref/c/struct/NSString //apple_ref/c/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --><span class="type">NSString</span><!-- /a --> <span class="type">*</span>)<!-- a logicalPath="//apple_ref/c/econst/name //apple_ref/c/data/name //apple_ref/c/clconst/name " machineGenerated="true" --><span class="var">name</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class="param_indent">
+<dl>
+<dt>
+<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/addRakeFlushNotificationName:/name;   name=name -->
+<a name="//apple_ref/doc/methodparam/addRakeFlushNotificationName:/name"></a>
+<code>name</code>
+</dt>
+<dd><p>Notification Name</p></dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=start --><p>After adding notification name, you should register NotificationCenter with name that you passed through this function.
+</p>
+<!-- headerDoc=discussion;uid=//apple_ref/c/func/addRakeFlushNotificationName:;name=end --><!-- end discussion -->
 <hr class="betweenAPIEntries">
 <!-- headerDoc=func;  uid=//apple_ref/c/func/archive;   name=archive -->
 <a name="//apple_ref/c/func/archive"></a>
@@ -689,6 +731,33 @@ default for <code>flushInvterval</code>), and on background (since
 method manually if you want to force a flush at a particular moment.
 <!-- headerDoc=discussion;uid=//apple_ref/c/func/flush;name=end --><!-- end discussion -->
 </p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=func;  uid=//apple_ref/c/func/getCurrentTrackCount:;   name=getCurrentTrackCount: -->
+<a name="//apple_ref/c/func/getCurrentTrackCount:"></a>
+<h3><a name="getCurrentTrackCount:">getCurrentTrackCount:</a></h3>
+<hr class="afterName">
+<p><!-- headerDoc=abstract;uid=//apple_ref/c/func/getCurrentTrackCount:;name=start --><!-- begin abstract --></p>
+<p>Get current track log count. (Rake iOS only API)
+</p>
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/func/getCurrentTrackCount:;name=end -->
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/getCurrentTrackCount:;name=start -->- (<!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<!-- a logicalPath="//apple_ref/c/instm/getCurrentTrackCount //apple_ref/c/clm/getCurrentTrackCount //apple_ref/c/intfcm/getCurrentTrackCount //apple_ref/c/intfm/getCurrentTrackCount //apple_ref/c/func/getCurrentTrackCount //apple_ref/c/ftmplt/getCurrentTrackCount //apple_ref/c/defn/getCurrentTrackCount //apple_ref/c/macro/getCurrentTrackCount //apple_ref/doc/anysymbol/getCurrentTrackCount" machineGenerated="true" --><span class="function">getCurrentTrackCount</span><!-- /a -->:(void (^)(<!-- a logicalPath="//apple_ref/c/cl/NSUInteger //apple_ref/c/tdef/NSUInteger //apple_ref/c/tag/NSUInteger //apple_ref/c/struct/NSUInteger //apple_ref/c/intf/NSUInteger //apple_ref/doc/anysymbol/NSUInteger" machineGenerated="true" --><span class="type">NSUInteger</span><!-- /a --> <!-- a logicalPath="//apple_ref/c/cl/trackCount //apple_ref/c/tdef/trackCount //apple_ref/c/tag/trackCount //apple_ref/c/struct/trackCount //apple_ref/c/intf/trackCount //apple_ref/doc/anysymbol/trackCount" machineGenerated="true" --><span class="type">trackCount</span><!-- /a -->))<!-- a logicalPath="//apple_ref/c/econst/completion //apple_ref/c/data/completion //apple_ref/c/clconst/completion " machineGenerated="true" --><span class="var">completion</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/getCurrentTrackCount:;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class="param_indent">
+<dl>
+<dt>
+<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/getCurrentTrackCount:/completion;   name=completion -->
+<a name="//apple_ref/doc/methodparam/getCurrentTrackCount:/completion"></a>
+<code>completion</code>
+</dt>
+<dd><p>completion handler</p></dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/getCurrentTrackCount:;name=start --><p>Retruns current track log count of eventQueue in Rake instance through completion handler.
+</p>
+<!-- headerDoc=discussion;uid=//apple_ref/c/func/getCurrentTrackCount:;name=end --><!-- end discussion -->
 <hr class="betweenAPIEntries">
 <!-- headerDoc=func;  uid=//apple_ref/c/func/initWithToken:andFlushInterval:;   name=initWithToken:andFlushInterval: -->
 <a name="//apple_ref/c/func/initWithToken:andFlushInterval:"></a>
@@ -889,6 +958,22 @@ unless the existing value is equal to defaultValue.
 <code>NSURL</code> objects.
 </p>
 <!-- headerDoc=discussion;uid=//apple_ref/c/func/registerSuperPropertiesOnce:defaultValue:;name=end --><!-- end discussion -->
+<hr class="betweenAPIEntries">
+<!-- headerDoc=func;  uid=//apple_ref/c/func/removeRakeFlushNotificationName;   name=removeRakeFlushNotificationName -->
+<a name="//apple_ref/c/func/removeRakeFlushNotificationName"></a>
+<h3><a name="removeRakeFlushNotificationName">removeRakeFlushNotificationName</a></h3>
+<hr class="afterName">
+<p><!-- headerDoc=abstract;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=start --><!-- begin abstract --></p>
+<p>Remove Rake Flush Notification Name (Rake iOS only API)
+</p>
+<!-- end abstract --><!-- headerDoc=abstract;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=end -->
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=start -->- (<!-- a logicalPath="//apple_ref/c/cl/void //apple_ref/c/tdef/void //apple_ref/c/tag/void //apple_ref/c/struct/void //apple_ref/c/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<!-- a logicalPath="//apple_ref/c/econst/removeRakeFlushNotificationName //apple_ref/c/data/removeRakeFlushNotificationName //apple_ref/c/clconst/removeRakeFlushNotificationName " machineGenerated="true" --><span class="var">removeRakeFlushNotificationName</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=start --><p>Remove registered Notification name from Application if exists.
+<!-- headerDoc=discussion;uid=//apple_ref/c/func/removeRakeFlushNotificationName;name=end --><!-- end discussion -->
+</p>
 <hr class="betweenAPIEntries">
 <!-- headerDoc=func;  uid=//apple_ref/c/func/reset;   name=reset -->
 <a name="//apple_ref/c/func/reset"></a>
@@ -1118,7 +1203,7 @@ registered.
 <p class="hd_copyright">© SKPlanet
 
  </p>
-<p class="hd_timestamp">Last Updated: Friday, March 29, 2024
+<p class="hd_timestamp">Last Updated: Tuesday, October 22, 2024
 </p>
 </div>
 </td>
