@@ -234,6 +234,43 @@ FOUNDATION_EXPORT const unsigned char RakeVersionString[];
 
 /*!
  @method
+ 
+ @abstract
+ Add Rake Flush Notification Name (Rake iOS only API)
+ 
+ @discussion
+ After adding notification name, you should register NotificationCenter with name that you passed through this function.
+ 
+ @param name            Notification Name
+ */
+- (void)addRakeFlushNotificationName:(NSString *)name;
+
+/*!
+ @method
+ 
+ @abstract
+ Remove Rake Flush Notification Name (Rake iOS only API)
+ 
+ @discussion
+ Remove registered Notification name from Application if exists.
+ */
+- (void)removeRakeFlushNotificationName;
+
+/*!
+ @method
+ 
+ @abstract
+ Get current track log count. (Rake iOS only API)
+ 
+ @discussion
+ Retruns current track log count of eventQueue in Rake instance through completion handler.
+ 
+ @param completion            completion handler
+ */
+- (void)getCurrentTrackCount:(void (^)(NSUInteger trackCount))completion;
+
+/*!
+ @method
 
  @abstract
  Tracks an event with properties.
