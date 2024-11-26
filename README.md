@@ -6,14 +6,14 @@
 
 ## SDK Requirements
 - iOS14 이상
-- Xcode15 이상
+- Xcode16 이상
 - Objective-C와 Swift 환경 모두 지원합니다.
 
 ## Tutorial Requirements
-- Xcode15 이상
+- Xcode16 이상
 
 ## Install
-1. Rake.xcframework [2.1.0](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake.2.1.0.zip)을 다운받으세요.
+1. Rake.xcframework [2.2.0](https://github.com/skpdi/rake-ios-tutorial/raw/master/release/Rake.2.2.0.zip)을 다운받으세요.
  2. Rake.xcframework 을 선택하여 Xcode 프로젝트의 File Navigation에 넣습니다. 이때, Copy items if needed 이 선택된지 확인하고, Finish 버튼을 누릅니다.
 
 ----------

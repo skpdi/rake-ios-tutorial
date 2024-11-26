@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00785E1A2BAD7070005C3447 /* Rake.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; };
-		00785E1B2BAD7070005C3447 /* Rake.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0056A8792CF5695C00E4BC21 /* Rake.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; };
+		0056A87A2CF5695C00E4BC21 /* Rake.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 00785E192BAD7070005C3447 /* Rake.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A34760EB24B32B0E001FFD7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760EA24B32B0E001FFD7A /* AppDelegate.m */; };
 		A34760EE24B32B0E001FFD7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760ED24B32B0E001FFD7A /* SceneDelegate.m */; };
 		A34760F124B32B0E001FFD7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760F024B32B0E001FFD7A /* ViewController.m */; };
@@ -20,13 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		A3D0EEEE24B4052100F6045C /* Embed Frameworks */ = {
+		0056A87B2CF5695C00E4BC21 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00785E1B2BAD7070005C3447 /* Rake.xcframework in Embed Frameworks */,
+				0056A87A2CF5695C00E4BC21 /* Rake.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00785E1A2BAD7070005C3447 /* Rake.xcframework in Frameworks */,
+				0056A8792CF5695C00E4BC21 /* Rake.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 				A34760E224B32B0E001FFD7A /* Sources */,
 				A34760E324B32B0E001FFD7A /* Frameworks */,
 				A34760E424B32B0E001FFD7A /* Resources */,
-				A3D0EEEE24B4052100F6045C /* Embed Frameworks */,
+				0056A87B2CF5695C00E4BC21 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
