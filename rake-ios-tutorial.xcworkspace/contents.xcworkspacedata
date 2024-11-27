@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "container:rake-ios-tutorial-SwiftUI/rake-ios-tutorial-SwiftUI.xcodeproj">
+      location = "group:rake-ios-tutorial-Swift-Storyboard/rake-ios-tutorial-Swift-Storyboard.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:rake-ios-tutorial-Swift/rake-ios-tutorial-Swift.xcodeproj">
+      location = "container:rake-ios-tutorial-SwiftUI/rake-ios-tutorial-SwiftUI.xcodeproj">
    </FileRef>
 </Workspace>
