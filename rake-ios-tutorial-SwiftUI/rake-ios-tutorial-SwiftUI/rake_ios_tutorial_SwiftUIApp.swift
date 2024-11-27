@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct rake_ios_tutorial_SwiftUIApp: App {
+    
+    @UIApplicationDelegateAdaptor private var appDelegate: CustomAppDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

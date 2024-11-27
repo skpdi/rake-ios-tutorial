@@ -7,7 +7,4 @@
    <FileRef
       location = "group:rake-ios-tutorial-Swift/rake-ios-tutorial-Swift.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:rake-ios-tutorial-ObjC/rake-ios-tutorial-ObjC.xcodeproj">
-   </FileRef>
 </Workspace>

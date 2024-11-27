@@ -1,6 +1,0 @@
-framework module Rake {
-  umbrella header "Rake.h"
-  export *
-
-  module * { export * }
-}
