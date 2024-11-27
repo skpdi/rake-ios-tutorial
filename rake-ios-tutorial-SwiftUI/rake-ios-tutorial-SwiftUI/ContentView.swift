@@ -1,9 +1,8 @@
 //
 //  ContentView.swift
-//  rake-ios-tutorial-Swift
+//  rake-ios-tutorial-SwiftUI
 //
-//  Created by 1000731 on 2020/07/06.
-//  Copyright © 2020 1000731. All rights reserved.
+//  Created by 송혜영(Hyeyoung Song)/Data Infrastructure팀/SKP on 11/27/24.
 //
 
 import SwiftUI
@@ -13,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack(){
-            Text("Rake iOS Swift Tutorial")
+            Text("Rake iOS SwiftUI Tutorial")
                 .font(.title)
                 .padding(30)
             

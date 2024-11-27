@@ -2,8 +2,7 @@
 //  SceneDelegate.m
 //  rake-ios-tutorial-ObjC
 //
-//  Created by ssonghey on 2020/07/06.
-//  Copyright © 2020 SK Planet. All rights reserved.
+//  Created by 송혜영(Hyeyoung Song)/Data Infrastructure팀/SKP on 11/27/24.
 //
 
 #import "SceneDelegate.h"
@@ -26,7 +25,7 @@
     // Called as the scene is being released by the system.
     // This occurs shortly after the scene enters the background, or when its session is discarded.
     // Release any resources associated with this scene that can be re-created the next time the scene connects.
-    // The scene may re-connect later, as its session was not neccessarily discarded (see `application:didDiscardSceneSessions` instead).
+    // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 }
 
 

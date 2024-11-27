@@ -1,22 +1,19 @@
 //
 //  AppDelegate.swift
-//  rake-ios-tutorial-Swift
+//  rake-ios-tutorial-Swift-Storyboard
 //
-//  Created by 1000731 on 2020/07/06.
-//  Copyright © 2020 1000731. All rights reserved.
+//  Created by 송혜영(Hyeyoung Song)/Data Infrastructure팀/SKP on 11/27/24.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        Rake.sharedInstance(withToken: "your-rake-token", andUseDevServer: true)
+        Rake.sharedInstance(withToken: "your_rake_token", andUseDevServer: true)
         return true
     }
 

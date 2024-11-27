@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0019B30D2CF6E88400812947 /* rake-ios-tutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0056A8852CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0019B3242CF6E88600812947 /* Exceptions for "rake-ios-tutorial-ObjC" folder in "rake-ios-tutorial-ObjC" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 0019B30C2CF6E88400812947 /* rake-ios-tutorial-ObjC */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		0019B30F2CF6E88400812947 /* rake-ios-tutorial-ObjC */ = {
+		0056A8872CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				0019B3242CF6E88600812947 /* Exceptions for "rake-ios-tutorial-ObjC" folder in "rake-ios-tutorial-ObjC" target */,
-			);
-			path = "rake-ios-tutorial-ObjC";
+			path = "rake-ios-tutorial-SwiftUI";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0019B30A2CF6E88400812947 /* Frameworks */ = {
+		0056A8822CF6B6CB00E4BC21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0019B3042CF6E88400812947 = {
+		0056A87C2CF6B6CB00E4BC21 = {
 			isa = PBXGroup;
 			children = (
-				0019B30F2CF6E88400812947 /* rake-ios-tutorial-ObjC */,
-				0019B30E2CF6E88400812947 /* Products */,
+				0056A8872CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */,
+				0056A8862CF6B6CB00E4BC21 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0019B30E2CF6E88400812947 /* Products */ = {
+		0056A8862CF6B6CB00E4BC21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0019B30D2CF6E88400812947 /* rake-ios-tutorial-ObjC.app */,
+				0056A8852CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,63 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0019B30C2CF6E88400812947 /* rake-ios-tutorial-ObjC */ = {
+		0056A8842CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0019B3252CF6E88600812947 /* Build configuration list for PBXNativeTarget "rake-ios-tutorial-ObjC" */;
+			buildConfigurationList = 0056A8932CF6B6CE00E4BC21 /* Build configuration list for PBXNativeTarget "rake-ios-tutorial-SwiftUI" */;
 			buildPhases = (
-				0019B3092CF6E88400812947 /* Sources */,
-				0019B30A2CF6E88400812947 /* Frameworks */,
-				0019B30B2CF6E88400812947 /* Resources */,
+				0056A8812CF6B6CB00E4BC21 /* Sources */,
+				0056A8822CF6B6CB00E4BC21 /* Frameworks */,
+				0056A8832CF6B6CB00E4BC21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				0019B30F2CF6E88400812947 /* rake-ios-tutorial-ObjC */,
+				0056A8872CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */,
 			);
-			name = "rake-ios-tutorial-ObjC";
+			name = "rake-ios-tutorial-SwiftUI";
 			packageProductDependencies = (
 			);
-			productName = "rake-ios-tutorial-ObjC";
-			productReference = 0019B30D2CF6E88400812947 /* rake-ios-tutorial-ObjC.app */;
+			productName = "rake-ios-tutorial-SwiftUI";
+			productReference = 0056A8852CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0019B3052CF6E88400812947 /* Project object */ = {
+		0056A87D2CF6B6CB00E4BC21 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					0019B30C2CF6E88400812947 = {
+					0056A8842CF6B6CB00E4BC21 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 0019B3082CF6E88400812947 /* Build configuration list for PBXProject "rake-ios-tutorial-ObjC" */;
+			buildConfigurationList = 0056A8802CF6B6CB00E4BC21 /* Build configuration list for PBXProject "rake-ios-tutorial-SwiftUI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 0019B3042CF6E88400812947;
+			mainGroup = 0056A87C2CF6B6CB00E4BC21;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0019B30E2CF6E88400812947 /* Products */;
+			productRefGroup = 0056A8862CF6B6CB00E4BC21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0019B30C2CF6E88400812947 /* rake-ios-tutorial-ObjC */,
+				0056A8842CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0019B30B2CF6E88400812947 /* Resources */ = {
+		0056A8832CF6B6CB00E4BC21 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0019B3092CF6E88400812947 /* Sources */ = {
+		0056A8812CF6B6CB00E4BC21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -137,61 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0019B3262CF6E88600812947 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AJJQQRLXL5;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "rake-ios-tutorial-ObjC/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.di.rake-ios-tutorial-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		0019B3272CF6E88600812947 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AJJQQRLXL5;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "rake-ios-tutorial-ObjC/Info.plist";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.di.rake-ios-tutorial-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0019B3282CF6E88600812947 /* Debug */ = {
+		0056A8912CF6B6CE00E4BC21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,10 +183,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0019B3292CF6E88600812947 /* Release */ = {
+		0056A8922CF6B6CE00E4BC21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,32 +239,93 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0056A8942CF6B6CE00E4BC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rake-ios-tutorial-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = AJJQQRLXL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.di.rake-ios-tutorial-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/rake-ios-tutorial-SwiftUI/rake-ios-tutorial-SwiftUI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0056A8952CF6B6CE00E4BC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rake-ios-tutorial-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = AJJQQRLXL5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skplanet.di.rake-ios-tutorial-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/rake-ios-tutorial-SwiftUI/rake-ios-tutorial-SwiftUI-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0019B3082CF6E88400812947 /* Build configuration list for PBXProject "rake-ios-tutorial-ObjC" */ = {
+		0056A8802CF6B6CB00E4BC21 /* Build configuration list for PBXProject "rake-ios-tutorial-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0019B3282CF6E88600812947 /* Debug */,
-				0019B3292CF6E88600812947 /* Release */,
+				0056A8912CF6B6CE00E4BC21 /* Debug */,
+				0056A8922CF6B6CE00E4BC21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0019B3252CF6E88600812947 /* Build configuration list for PBXNativeTarget "rake-ios-tutorial-ObjC" */ = {
+		0056A8932CF6B6CE00E4BC21 /* Build configuration list for PBXNativeTarget "rake-ios-tutorial-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0019B3262CF6E88600812947 /* Debug */,
-				0019B3272CF6E88600812947 /* Release */,
+				0056A8942CF6B6CE00E4BC21 /* Debug */,
+				0056A8952CF6B6CE00E4BC21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0019B3052CF6E88400812947 /* Project object */;
+	rootObject = 0056A87D2CF6B6CB00E4BC21 /* Project object */;
 }

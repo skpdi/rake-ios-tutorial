@@ -2,8 +2,7 @@
 //  AppDelegate.m
 //  rake-ios-tutorial-ObjC
 //
-//  Created by ssonghey on 2020/07/06.
-//  Copyright © 2020 SK Planet. All rights reserved.
+//  Created by 송혜영(Hyeyoung Song)/Data Infrastructure팀/SKP on 11/27/24.
 //
 
 #import "AppDelegate.h"
@@ -20,7 +19,7 @@
     // Override point for customization after application launch.
     
     // Init Rake sharedInstance
-    [Rake sharedInstanceWithToken: @"your-rake-token" andUseDevServer: YES];
+    [Rake sharedInstanceWithToken: @"your_rake_token" andUseDevServer: YES];
     
     return YES;
 }
