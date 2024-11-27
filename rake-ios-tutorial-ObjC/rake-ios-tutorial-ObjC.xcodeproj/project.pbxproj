@@ -16,7 +16,6 @@
 		A34760F624B32B0E001FFD7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34760F524B32B0E001FFD7A /* Assets.xcassets */; };
 		A34760F924B32B0E001FFD7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34760F724B32B0E001FFD7A /* LaunchScreen.storyboard */; };
 		A34760FC24B32B0E001FFD7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34760FB24B32B0E001FFD7A /* main.m */; };
-		A3D0EEFB24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,8 +46,6 @@
 		A34760F824B32B0E001FFD7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A34760FA24B32B0E001FFD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A34760FB24B32B0E001FFD7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiRakeClientTestIOsSentinelShuttle.h; path = shuttle/DiRakeClientTestIOsSentinelShuttle.h; sourceTree = "<group>"; };
-		A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiRakeClientTestIOsSentinelShuttle.m; path = shuttle/DiRakeClientTestIOsSentinelShuttle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +71,6 @@
 		A34760DD24B32B0E001FFD7A = {
 			isa = PBXGroup;
 			children = (
-				A3D0EEEF24B4063000F6045C /* sdk */,
 				A34760E824B32B0E001FFD7A /* rake-ios-tutorial-ObjC */,
 				A34760E724B32B0E001FFD7A /* Products */,
 				00785E182BAD7070005C3447 /* Frameworks */,
@@ -105,16 +101,6 @@
 				A34760FB24B32B0E001FFD7A /* main.m */,
 			);
 			path = "rake-ios-tutorial-ObjC";
-			sourceTree = "<group>";
-		};
-		A3D0EEEF24B4063000F6045C /* sdk */ = {
-			isa = PBXGroup;
-			children = (
-				A3D0EEF924B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.h */,
-				A3D0EEFA24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m */,
-			);
-			name = sdk;
-			path = "rake-ios-tutorial-ObjC/sdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +177,6 @@
 			files = (
 				A34760F124B32B0E001FFD7A /* ViewController.m in Sources */,
 				A34760EB24B32B0E001FFD7A /* AppDelegate.m in Sources */,
-				A3D0EEFB24B410E800F6045C /* DiRakeClientTestIOsSentinelShuttle.m in Sources */,
 				A34760FC24B32B0E001FFD7A /* main.m in Sources */,
 				A34760EE24B32B0E001FFD7A /* SceneDelegate.m in Sources */,
 			);
