@@ -6,13 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXCopyFilesBuildPhase section */
+		00FDD54A2D509BCE007B322B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0056A8852CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		00FDD54B2D509BCE007B322B /* Exceptions for "rake-ios-tutorial-SwiftUI" folder in "Embed Frameworks" phase from "rake-ios-tutorial-SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				sdk/Rake.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 00FDD54A2D509BCE007B322B /* Embed Frameworks */;
+			membershipExceptions = (
+				sdk/Rake.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0056A8872CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				00FDD54B2D509BCE007B322B /* Exceptions for "rake-ios-tutorial-SwiftUI" folder in "Embed Frameworks" phase from "rake-ios-tutorial-SwiftUI" target */,
+			);
 			path = "rake-ios-tutorial-SwiftUI";
 			sourceTree = "<group>";
 		};
@@ -33,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				0056A8872CF6B6CB00E4BC21 /* rake-ios-tutorial-SwiftUI */,
+				00FDD5472D509BCE007B322B /* Frameworks */,
 				0056A8862CF6B6CB00E4BC21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +75,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		00FDD5472D509BCE007B322B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -55,6 +92,7 @@
 				0056A8812CF6B6CB00E4BC21 /* Sources */,
 				0056A8822CF6B6CB00E4BC21 /* Frameworks */,
 				0056A8832CF6B6CB00E4BC21 /* Resources */,
+				00FDD54A2D509BCE007B322B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

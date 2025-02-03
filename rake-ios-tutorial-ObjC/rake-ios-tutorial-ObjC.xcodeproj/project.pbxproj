@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXCopyFilesBuildPhase section */
+		00FDD53F2D509BB4007B322B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0019B30D2CF6E88400812947 /* rake-ios-tutorial-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rake-ios-tutorial-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -20,11 +33,25 @@
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		00FDD5402D509BB4007B322B /* Exceptions for "rake-ios-tutorial-ObjC" folder in "Embed Frameworks" phase from "rake-ios-tutorial-ObjC" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			attributesByRelativePath = {
+				sdk/Rake.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
+			};
+			buildPhase = 00FDD53F2D509BB4007B322B /* Embed Frameworks */;
+			membershipExceptions = (
+				sdk/Rake.xcframework,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0019B30F2CF6E88400812947 /* rake-ios-tutorial-ObjC */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				0019B3242CF6E88600812947 /* Exceptions for "rake-ios-tutorial-ObjC" folder in "rake-ios-tutorial-ObjC" target */,
+				00FDD5402D509BB4007B322B /* Exceptions for "rake-ios-tutorial-ObjC" folder in "Embed Frameworks" phase from "rake-ios-tutorial-ObjC" target */,
 			);
 			path = "rake-ios-tutorial-ObjC";
 			sourceTree = "<group>";
@@ -46,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				0019B30F2CF6E88400812947 /* rake-ios-tutorial-ObjC */,
+				00FDD53C2D509BB4007B322B /* Frameworks */,
 				0019B30E2CF6E88400812947 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +86,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		00FDD53C2D509BB4007B322B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,6 +103,7 @@
 				0019B3092CF6E88400812947 /* Sources */,
 				0019B30A2CF6E88400812947 /* Frameworks */,
 				0019B30B2CF6E88400812947 /* Resources */,
+				00FDD53F2D509BB4007B322B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
