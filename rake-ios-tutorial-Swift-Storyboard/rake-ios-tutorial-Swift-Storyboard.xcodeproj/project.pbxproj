@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		00FDD5442D509BC4007B322B /* Embed Frameworks */ = {
+		005D9C8E2D658E7B0079F4DD /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -24,12 +24,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		00FDD5452D509BC4007B322B /* Exceptions for "rake-ios-tutorial-Swift-Storyboard" folder in "Embed Frameworks" phase from "rake-ios-tutorial-Swift-Storyboard" target */ = {
+		005D9C8F2D658E7C0079F4DD /* Exceptions for "rake-ios-tutorial-Swift-Storyboard" folder in "Embed Frameworks" phase from "rake-ios-tutorial-Swift-Storyboard" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				sdk/Rake.xcframework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
 			};
-			buildPhase = 00FDD5442D509BC4007B322B /* Embed Frameworks */;
+			buildPhase = 005D9C8E2D658E7B0079F4DD /* Embed Frameworks */;
 			membershipExceptions = (
 				sdk/Rake.xcframework,
 			);
@@ -40,7 +40,7 @@
 		0019B2E22CF6D97E00812947 /* rake-ios-tutorial-Swift-Storyboard */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				00FDD5452D509BC4007B322B /* Exceptions for "rake-ios-tutorial-Swift-Storyboard" folder in "Embed Frameworks" phase from "rake-ios-tutorial-Swift-Storyboard" target */,
+				005D9C8F2D658E7C0079F4DD /* Exceptions for "rake-ios-tutorial-Swift-Storyboard" folder in "Embed Frameworks" phase from "rake-ios-tutorial-Swift-Storyboard" target */,
 			);
 			path = "rake-ios-tutorial-Swift-Storyboard";
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 				0019B2DC2CF6D97E00812947 /* Sources */,
 				0019B2DD2CF6D97E00812947 /* Frameworks */,
 				0019B2DE2CF6D97E00812947 /* Resources */,
-				00FDD5442D509BC4007B322B /* Embed Frameworks */,
+				005D9C8E2D658E7B0079F4DD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
